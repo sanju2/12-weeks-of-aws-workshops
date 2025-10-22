@@ -1,32 +1,29 @@
 # 12-weeks-of-aws-workshops
 12 Weeks of AWS Training Workshops
 
-- Intro Cloud Computing and AWS Services.
+- Week 0 - Intro Cloud Computing, AWS Services & AWS Well Architectured framework.
 
-- Compute - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/compute
+- week 1 - Compute - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/compute
 
-- Monitoring - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/40-monitoring
+- week 2 - Network - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/20-vpc/vpc
 
-- Networking - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/20-vpc/vpc
+- week 3 - Storage - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/storage
 
-- Identity - https://catalog.workshops.aws/iam-identity-center/en-US
+- week 4 - Deploy Personal Website to AWS Cloud. Ref - https://dev.to/aws-builders/how-i-built-my-personal-blog-site-using-aws-services-51l7
 
-- Storage - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/storage
+- week 5 - Identity - Basic IAM + Identity Center - https://catalog.workshops.aws/iam-identity-center/en-US
 
-- Databases - https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab1
+- week 6 - Databases - NoSQL vs SQL + RDS Workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab1
 https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab2
 
-- IaaC cloudformation - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/800-cfn/810-cfn-lab1-vpc
+- week 7 - Containers - https://catalog.workshops.aws/aws101-containers/en-US
 
-- Container - https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment-win.html
+- week 8 - Serverless (Lambda) + Event-driven with EventBridge + Add visitor count to personal website
 
-- AWS 101 - Containers - https://catalog.workshops.aws/aws101-containers/en-US
+- week 9 - AWS Security Services 101 + Demo
 
-- Serverless - https://catalog.us-east-1.prod.workshops.aws/workshops/841ce16b-9d86-48ac-a3f6-6a1b29f95d2b/en-US/
+- week 10 - CloudFormation - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/800-cfn/800-cfn-intro
 
-- Security - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/30-iam
+- week 11 - Monitoring (CloudWatch) - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/40-monitoring
 
-- Event-driven architectures - https://catalog.us-east-1.prod.workshops.aws/workshops/63320e83-6abc-493d-83d8-f822584fb3cb/en-US/lambda
-
-- GenAI - https://catalog.workshops.aws/building-gen-ai-apps/en-US/partyrock
-https://catalog.workshops.aws/building-gen-ai-apps/en-US/bedrock-api/using-the-api/gen-images
+- week 12 - GenAI - Supercharge your DevOps practices with generative AI - https://builder.aws.com/content/2rRTRRuo2Tj6r0FXZmWJH8gNHjP/supercharge-your-devops-practices-with-generative-ai. Amazon EKS MCP Server - https://awslabs.github.io/mcp/servers/eks-mcp-server
