@@ -90,7 +90,7 @@ It enables individuals and organizations to build, deploy, and scale application
 
 ---
 
-## 🗺️ 3. AWS Global Infrastructure
+## 3. AWS Global Infrastructure
 
 AWS operates on a **global scale** to provide **high availability, low latency**, and **fault tolerance**.
 
