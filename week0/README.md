@@ -1,115 +1,131 @@
-# week 0
+# Introduction to Cloud Computing, AWS Services & AWS Well-Architected Framework
 
-# ☁️ Introduction to Cloud Computing & DevOps Services
-
-## ☁️ What is Cloud Computing?
-
-**Cloud Computing** is the on-demand delivery of computing services — such as servers, storage, databases, networking, software, and analytics — over the internet (“the cloud”).  
-Instead of owning physical servers, you rent computing resources from cloud providers.
-
-### Key Characteristics
-- **On-demand self-service:** Get resources anytime without human interaction.
-- **Broad network access:** Accessible from anywhere via the internet.
-- **Resource pooling:** Multiple users share resources securely.
-- **Rapid elasticity:** Scale up/down easily based on demand.
-- **Measured service:** Pay only for what you use (pay-as-you-go).
+## Topics
+- Cloud Computing
+- Amazon Web Services (AWS)
+- AWS Well-Architected Framework
 
 ---
 
-## Cloud Service Models
+## 1. What is Cloud Computing?
 
-| Model | Description | Example Services |
-|--------|--------------|------------------|
-| **IaaS** (Infrastructure as a Service) | Provides virtual machines, storage, and networking. You manage OS and apps. | AWS EC2, Azure VM, Google Compute Engine |
-| **PaaS** (Platform as a Service) | Provides runtime environment for app development. You focus on code, not infrastructure. | Azure App Service, AWS Elastic Beanstalk |
-| **SaaS** (Software as a Service) | Fully managed software delivered via the internet. | Microsoft 365, Salesforce, Gmail |
+### 🔹 Definition
+Cloud computing is the **on-demand delivery of computing services**—such as servers, storage, databases, networking, and analytics—**over the internet** (“the cloud”) with **pay-as-you-go** pricing.
 
 ---
 
-## Cloud Deployment Models
+### 🔹 Key Characteristics
+- **On-Demand Self Service** - Provision resources whenever needed.
+- **Broad Network Access** - Access services over the internet.
+- **Resource Pooling** - Shared resources among multiple customers.
+- **Rapid Elasticity** - Scale resources up or down as needed.
+- **Measured Service** - Pay only for what you consume.
+
+---
+
+### 🔹 Cloud Service Models
+
+| Model | Description | Example AWS Services |
+|--------|--------------|----------------------|
+| **IaaS** | Infrastructure as a Service - provides basic computing resources. | EC2, EBS, VPC |
+| **PaaS** | Platform as a Service - provides runtime environment for development. | Elastic Beanstalk, RDS |
+| **SaaS** | Software as a Service - ready-to-use applications. | MS 365, Chime |
+
+---
+
+### 🔹 Cloud Deployment Models
 
 | Model | Description | Example |
-|--------|--------------|---------|
-| **Public Cloud** | Owned and managed by third-party providers. | Azure, AWS, GCP |
-| **Private Cloud** | Used exclusively by one organization. | VMware, OpenStack |
-| **Hybrid Cloud** | Combination of public + private environments. | Azure Arc, AWS Outposts |
+|--------|--------------|----------|
+| **Public Cloud** | Fully managed by third-party providers, available to anyone. | AWS |
+| **Private Cloud** | Used exclusively by one organization. | VMware Private Cloud |
+| **Hybrid Cloud** | Combines public and private cloud features. | AWS Outposts |
 
 ---
 
-## Common DevOps-Related Cloud Services
+## 2. Amazon Web Services (AWS)
 
-### 🔹 **Compute Services**
-Run and manage your applications.
-
-- **Azure Virtual Machines** / **AWS EC2**
-- **Azure App Service** / **AWS Elastic Beanstalk**
-- **Azure Kubernetes Service (AKS)** / **Amazon EKS**
+### 🔹 What is AWS?
+Amazon Web Services is the world’s most comprehensive and widely adopted **cloud platform**, offering over **200 services** from data centers worldwide.  
+It enables individuals and organizations to build, deploy, and scale applications efficiently.
 
 ---
 
-### 🔹 **Storage Services**
-Store data securely and access it anytime.
+### Core AWS Services by Category
 
-- **Azure Blob Storage** / **Amazon S3**
-- **Azure Disk Storage** / **Amazon EBS**
+#### Compute
+- **EC2 (Elastic Compute Cloud):** Virtual servers in the cloud.  
+- **Lambda:** Run code without provisioning servers (Serverless).  
+- **Elastic Beanstalk:** Deploy and manage web applications easily.
 
----
+#### Storage
+- **S3 (Simple Storage Service):** Object storage for data, backups, and files.  
+- **EBS (Elastic Block Store):** Block storage for EC2 instances.  
+- **Glacier:** Long-term archive storage at low cost.
 
-### 🔹 **Networking Services**
-Connect and protect your infrastructure.
+#### Database
+- **RDS:** Managed relational databases (MySQL, PostgreSQL, etc.).  
+- **DynamoDB:** Fully managed NoSQL database.  
+- **Redshift:** Data warehouse for analytics.
 
-- **Azure Virtual Network (VNet)** / **Amazon VPC**
-- **Azure Load Balancer** / **AWS Elastic Load Balancer**
-- **Azure DNS**, **AWS Route 53**
+#### Networking
+- **VPC (Virtual Private Cloud):** Isolated network environment.  
+- **Route 53:** DNS and domain management service.  
+- **CloudFront:** Content Delivery Network (CDN) for faster global delivery.
 
----
+#### Security & Identity
+- **IAM (Identity and Access Management):** Manage user access and permissions.  
+- **KMS (Key Management Service):** Encryption key management.  
+- **GuardDuty:** Intelligent threat detection.
 
-### 🔹 **CI/CD (Continuous Integration / Continuous Delivery)**
-Automate your software build, test, and deployment pipelines.
+#### DevOps & Management Tools
+- **CloudFormation:** Infrastructure as Code (IaC).  
+- **CloudWatch:** Monitoring and logging.  
+- **CodePipeline:** Automate CI/CD pipelines.
 
-- **Azure DevOps Pipelines**
-- **GitHub Actions**
-- **AWS CodePipeline**
-- **Jenkins**
-
----
-
-### 🔹 **Monitoring & Logging**
-Track performance, uptime, and errors.
-
-- **Azure Monitor** / **AWS CloudWatch**
-- **Grafana + Prometheus**
-- **Elastic Stack (ELK)**
-
----
-
-### 🔹 **Infrastructure as Code (IaC)**
-Define and manage infrastructure using code.
-
-- **Terraform**
-- **Ansible**
-- **Azure Bicep**
-- **AWS CloudFormation**
+#### Machine Learning & AI
+- **SageMaker:** Build, train, and deploy ML models.  
+- **Rekognition:** Image and video analysis.  
+- **Comprehend:** Natural language processing service.
 
 ---
 
-### 🔹 **Containerization & Orchestration**
-Run applications in lightweight, isolated environments.
+## 🗺️ 3. AWS Global Infrastructure
 
-- **Docker** → Packages applications
-- **Kubernetes (K8s)** → Manages containers at scale
-- **Azure Kubernetes Service (AKS)** / **Amazon EKS**
+AWS operates on a **global scale** to provide **high availability, low latency**, and **fault tolerance**.
+
+Region → Physical location (e.g., Asia Pacific - Singapore)
+Availability Zone (AZ) → Independent data centers (e.g., ap-southeast-1a)
+Edge Locations → CDN endpoints for caching (e.g., CloudFront)
+
+
+### Components
+- **Regions:** Geographic areas hosting multiple AZs.  
+- **Availability Zones:** Physically separate data centers for resilience.  
+- **Edge Locations:** Points of presence used by CloudFront for content delivery.
+
+---
+
+## 4. AWS Well-Architected Framework
+
+### 🔹 Definition
+The **AWS Well-Architected Framework** is a collection of best practices designed to help cloud architects build **secure, high-performing, resilient, and efficient** infrastructure for their applications.
 
 ---
 
-## Why Cloud + DevOps?
+### 🔹 The Six Pillars
 
-| Benefit | Description |
-|----------|--------------|
-| **Speed** | Faster deployment and innovation. |
-| **Scalability** | Adjust resources dynamically. |
-| **Reliability** | Built-in redundancy and backups. |
-| **Automation** | Reduce manual work through pipelines. |
-| **Cost Efficiency** | Pay only for what you use. |
+| Pillar | Description | Example Focus Areas |
+|--------|--------------|--------------------|
+| **1. Operational Excellence** | Improve operations through automation and monitoring. | Logging, automation, runbooks |
+| **2. Security** | Protect systems and data. | IAM, encryption, security audits |
+| **3. Reliability** | Ensure workloads perform correctly even during failures. | Fault tolerance, backups |
+| **4. Performance Efficiency** | Use computing resources efficiently. | Auto Scaling, right-sizing |
+| **5. Cost Optimization** | Avoid unnecessary costs. | Cost Explorer, savings plans |
+| **6. Sustainability** | Minimize environmental impact. | Resource efficiency, optimization |
 
 ---
+
+### Example AWS Architecture (Web App)
+
+![Architecture](/week0/3-Tier-App-AWS.png)
