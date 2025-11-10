@@ -3,7 +3,7 @@
 
 - Week 0 - Intro Cloud Computing, AWS Services & AWS Well Architectured framework.
 
-- week 1 - Compute - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/compute
+- week 1 - Compute - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/10-ec2/ec2-windows
 
 - week 2 - Network - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/20-vpc/vpc
 
