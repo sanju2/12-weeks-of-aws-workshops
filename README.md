@@ -1,7 +1,7 @@
 # 12-weeks-of-aws-workshops
 12 Weeks of AWS Training Workshops
 
-- Week 0 - Intro Cloud Computing, AWS Services & AWS Well Architectured framework.
+- Week 0 - Intro Cloud Computing, AWS Services & AWS Well Architectured framework
 
 - week 1 - Compute
 
