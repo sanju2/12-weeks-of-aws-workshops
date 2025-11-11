@@ -1,6 +1,8 @@
 # 12-weeks-of-aws-workshops
 12 Weeks of AWS Training Workshops
 
+[Recordings](https://drive.google.com/drive/folders/1fWO0AuXcffCbDLUUn6jVQ3FxvK8kQNBM?usp=drive_link).
+
 - Week 0 - Intro Cloud Computing, AWS Services & AWS Well Architectured framework ☑️
 
 - week 1 - Compute ☑️
