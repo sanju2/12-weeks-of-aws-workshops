@@ -29,3 +29,6 @@ https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c
 - week 11 - Monitoring (CloudWatch) - https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/40-monitoring
 
 - week 12 - GenAI - Supercharge your DevOps practices with generative AI - https://builder.aws.com/content/2rRTRRuo2Tj6r0FXZmWJH8gNHjP/supercharge-your-devops-practices-with-generative-ai. Amazon EKS MCP Server - https://awslabs.github.io/mcp/servers/eks-mcp-server
+
+Ref
+[30 Days of AWS](https://sanju2.github.io/blogs/30daysaws.html)
