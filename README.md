@@ -9,7 +9,7 @@
 
 - week 2 - Network ☑️
 
-- week 3 - Storage - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/storage
+- week 3 - Storage
 
 - week 4 - Deploy Personal Website to AWS Cloud. Ref - https://dev.to/aws-builders/how-i-built-my-personal-blog-site-using-aws-services-51l7
 
