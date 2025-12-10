@@ -5,6 +5,3 @@ Workshop link
 
 Home Work
 - VPC Flow logs https://dev.to/aws-builders/aws-vpc-flow-logs-37eg
-
-Optional 
-- https://catalog.workshops.aws/general-immersionday/en-US/basic-modules/20-vpc/vpc
