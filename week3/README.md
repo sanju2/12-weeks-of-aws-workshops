@@ -1,4 +1,4 @@
-# week 2 - Network
+# week 3 - Storage
 
 Workshop link
 - https://catalog.us-east-1.prod.workshops.aws/workshops/869a0a06-1f98-4e19-b5ac-cbb1abdfc041/en-US/advanced-modules/storage
