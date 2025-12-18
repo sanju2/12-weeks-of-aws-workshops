@@ -9,3 +9,4 @@ Home Work
 
 ![Architecture Diagram](architecture-diagram.png)
 
+- Create an AWS EC2 Web App with Load Balancing.pdf
