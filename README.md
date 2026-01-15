@@ -9,9 +9,9 @@
 
 - week 2 - Network ☑️
 
-- week 3 - Storage
+- week 3 - Storage ☑️
 
-- week 4 - Deploy Personal Website to AWS Cloud. Ref - https://dev.to/aws-builders/how-i-built-my-personal-blog-site-using-aws-services-51l7
+- week 4 - Project 1 - Deploy Personal Website to AWS Cloud ⏳
 
 - week 5 - Identity - Basic IAM + Identity Center - https://catalog.workshops.aws/iam-identity-center/en-US
 
