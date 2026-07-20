@@ -11,14 +11,14 @@
 
 - week 3 - Storage ☑️
 
-- week 4 - Project 1 - Deploy Personal Website to AWS Cloud ⏳
+- week 4 - Project 1 - Deploy Personal Website to AWS Cloud ☑️
 
-- week 5 - Identity - Basic IAM + Identity Center - https://catalog.workshops.aws/iam-identity-center/en-US
+- week 5 - Containers ☑️
 
 - week 6 - Databases - NoSQL vs SQL + RDS Workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab1
 https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab2
 
-- week 7 - Containers - https://catalog.workshops.aws/aws101-containers/en-US
+- week 7 - Identity - Basic IAM + Identity Center - https://catalog.workshops.aws/iam-identity-center/en-US
 
 - week 8 - Serverless (Lambda) + Event-driven with EventBridge + Add visitor count to personal website
 
