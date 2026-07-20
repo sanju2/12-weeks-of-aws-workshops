@@ -15,12 +15,12 @@
 
 - week 5 - Containers ☑️
 
-- week 6 - Databases - NoSQL vs SQL + RDS Workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab1
-https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab2
+- week 6 - Serverless (Lambda) + Event-driven with EventBridge + Add visitor count to personal website
 
 - week 7 - Identity - Basic IAM + Identity Center - https://catalog.workshops.aws/iam-identity-center/en-US
 
-- week 8 - Serverless (Lambda) + Event-driven with EventBridge + Add visitor count to personal website
+- week 8 - Databases - NoSQL vs SQL + RDS Workshop - https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab1
+https://catalog.us-east-1.prod.workshops.aws/workshops/897acbd7-8f2e-46ed-8dcd-c97872d5b3ce/en-US/lab2
 
 - week 9 - AWS Security Services 101 + Demo
 
