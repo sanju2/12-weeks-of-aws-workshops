@@ -1,5 +1,5 @@
 # 12-weeks-of-aws-workshops
-12 Weeks of AWS Training Workshops
+12 Weeks of AWS Training Workshops - Sinhala Language
 
 [Recordings](https://drive.google.com/drive/folders/1fWO0AuXcffCbDLUUn6jVQ3FxvK8kQNBM?usp=drive_link).
 
